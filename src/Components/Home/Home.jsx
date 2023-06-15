@@ -151,7 +151,7 @@ const Home = () => {
                         hover:bg-gray-100
                       " href="#" id="logApp" onclick="logout()">Sign Out</a>
                       </li>
-                     <li><button type="button"
+                     {/* <li><button type="button"
                         className=" inline-flex items-center px-4 py-2  border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                         id="Appfeedback" data-mdb-toggle="modal" data-mdb-target="#appfeedback">
                         Provide Feedback
@@ -160,7 +160,7 @@ const Home = () => {
                         className=" items-center px-4 py-2 border border-transparent shadow-sm text-sm font-medium rounded-md text-white btn-warning focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                         id="logApp" onclick="logout()">
                         Log Out
-                    </button></li><br /> 
+                    </button></li><br />  */}
 				</ul>
 			</div>
 			{/* <script>
