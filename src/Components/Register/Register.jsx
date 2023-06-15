@@ -157,7 +157,7 @@ const Register = () => {
             </span>
            Register
           </button>
-          <label className="ml-2 block text-sm text-gray-900 text-center">Already have an account? <a href="login.html"> Login </a> </label>
+          <label className="ml-2 block text-sm text-gray-900 text-center">Already have an account? <a href="login"> Login </a> </label>
         </div>
       </form>
     </div>
