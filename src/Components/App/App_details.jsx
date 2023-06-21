@@ -1,4 +1,5 @@
 import React from 'react'
+import joined from '../assets/images/s_joined_logo.png'
 
 const App_details = () => {
   return (
@@ -14,7 +15,7 @@ const App_details = () => {
                                     {/* <!-- Website Logo --> */}
                                     <a href="#" className="flex items-center py-4 px-2">
                                     
-                                        <img className=" w-90" style={{height: "3.5rem"}} src="s_joined_logo.png" alt="Sapien Africa" />
+                                        <img className=" w-90" style={{height: "3.5rem"}} src={joined} alt="Sapien Africa" />
                                     </a>
                                 </div>
                                 
@@ -539,6 +540,9 @@ const App_details = () => {
         </div>
         </div>
         </body>
+
+    
+
     </div>
   )
 }
