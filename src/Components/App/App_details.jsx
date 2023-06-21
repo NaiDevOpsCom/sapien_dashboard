@@ -299,7 +299,7 @@ const App_details = () => {
                                                     </div>
                                                     <div className="col-md-6">
 
-                                                        <div className="form-outline">
+                                                        {/* <div className="form-outline">
                                                             <textarea name="service_definations" id="service_definations"
                                                                 cols="30" rows="10" className="form-control"
                                                                 style={{textAlign: "left"}} onfocusout="prettyPrint()"
@@ -314,7 +314,7 @@ const App_details = () => {
                                                                     }
                                                                     ]"></textarea>
 
-                                                        </div>
+                                                        </div> */}
 
                                                     </div>
                                                 </div>
@@ -423,7 +423,7 @@ const App_details = () => {
                                                         <div className="form-outline">
 
                                                             <input type="text" id="whitelist_urls" name="restricted_ip"
-                                                                className="form-control" style={{border:"1px solid #bdbdbd"}} />
+                                                                className="form-control" style={{border: "1px solid #bdbdbd"}} />
 
                                                             <div className="form-helper">*Whitelist IP's enter the IP's
                                                                 separated by comma(,)</div>
@@ -465,7 +465,7 @@ const App_details = () => {
                                         <div className="card-body">
                                             <h5 className="card-title font-bold"><u>Consumer Secret</u></h5><br />
                                             <p className="card-text"><span id="consumersecret"></span>
-                                                <i className="fas fa-copy" style="float:right;"></i>
+                                                <i className="fas fa-copy" style={{float:"right"}}></i>
                                             </p>
                                         </div>
                                     </div>
