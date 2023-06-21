@@ -299,7 +299,7 @@ const App_details = () => {
                                                     </div>
                                                     <div className="col-md-6">
 
-                                                        {/* <div className="form-outline">
+                                                         <div className="form-outline">
                                                             <textarea name="service_definations" id="service_definations"
                                                                 cols="30" rows="10" className="form-control"
                                                                 style={{textAlign: "left"}} onfocusout="prettyPrint()"
@@ -314,7 +314,7 @@ const App_details = () => {
                                                                     }
                                                                     ]"></textarea>
 
-                                                        </div> */}
+                                                        </div> 
 
                                                     </div>
                                                 </div>
